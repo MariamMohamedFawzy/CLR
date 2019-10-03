@@ -1,4 +1,15 @@
 # Cyclical Learning Rate (CLR)
+## Update 
+
+The repo is a fork of https://github.com/bckenstler/CLR .<br>
+This new version is compatible with tensorflow 2.
+<br>
+The changes done are: <br>
+. replcae keras.callbacks.Callback by tensorflow.keras.callbacks.Callback .
+<br>
+. replace K.set/get_value by tensorflow.keras.backend.set/get_value .
+#
+
 ![Alt text](images/triangularDiag.png?raw=true "Title")
 
 This repository includes a Keras callback to be used in training that allows implementation of cyclical learning rate policies, as detailed in Leslie Smith's paper [Cyclical Learning Rates for Training Neural Networks
